@@ -1,0 +1,26 @@
+[
+  {
+    "prod_name": "tv",
+    "price": 45000
+  },
+  {
+    "prod_name": "tv",
+    "price": 45000
+  },
+  {
+    "prod_name": "laptop",
+    "price": "85000"
+  },
+  {
+    "prod_name": "refrigerator",
+    "price": 35000
+  },
+  {
+    "prod_name": "camera",
+    "price": 65000
+  },
+  {
+    "prod_name": "laptop",
+    "price": 85000
+  }
+]

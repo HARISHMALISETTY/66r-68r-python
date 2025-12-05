@@ -50,8 +50,24 @@
 
 #w mode--->re write the content in the file
 
-with open('basic.txt','a') as f:
-    f.writelines(['a\n','b\n','c\n','d\n'])
+# with open('basic.txt','a') as f:
+#     f.writelines(['a\n','b\n','c\n','d\n'])
 
 #a mode--->update the existing file with new data
+
+
+# [1,2,3,4,5]--->""[1,2,3,4,5](it is loosing its original behaviour)
+# [1,2,3,4,5]--->"json string"-->(it wont loose its orgnl behaviour and 
+# also comm can be done very easily as json is lightweight)
+
+#mobile apps,webapps and file configurations,databases,python projects
+#it can be use in any programming language.
+
+# with open('./basic.txt','r+') as f:
+#     content=f.read()
+#     position=f.tell()
+    print(position)
+    # print(content)
+    # f.seek(3) #cursor will move to 3rd position
+    # f.write('harish')
 
