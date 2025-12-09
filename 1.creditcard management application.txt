@@ -1,0 +1,18 @@
+1.creditcard management application--->CLI.
+
+1.ALLOWING USER TO ADD THE CREDIT CARD.
+a.username-->provided by user through cli
+b.password-->provided by user through cli
+c.ccnum-->provided by user through cli
+d.cclimit-->provided by user through cli
+e.outstanding-->0 by default
+
+
+will create a json file with name cc.json.
+
+2.to display all the credit cards.
+a.if credit cards are available then display
+b.else show no cards are found.
+
+3.spend the credit card then alter limit and outstanding accordingly.
+4.pay the outstanding--->

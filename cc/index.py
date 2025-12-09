@@ -1,13 +1,14 @@
-def addCard():
-    print("adding function is executing")
-def showCards():
-    print("showcards function is executing")
-def spendtheCard():
-    print("spend card funciton is executing")
-def paythebill():
-    print("pay bill funciton is executing")
+import json
+from addCard import addCard
+from showCards import showCards
+from spendTheCard import spendtheCard
+from payTheBill import paythebill
+
 def main():
-    print(" click 1 for adding creditcards , click 2 for showing credit cards,click 3 for spending,click 4 for paying the bill ")
+    print("click 1 for adding creditcards")
+    print("click 2 for showing credit cards")
+    print("click 3 for spending")
+    print("click 4 for paying the bill ")
     ip=int(input("enter ur choice: "))
     if ip==1:
         addCard()
