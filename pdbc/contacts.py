@@ -73,8 +73,8 @@ def search_contact():
     try:
         cursor.execute("use contact_book")
         name=input('enter the name to search ')
-        query="""select * from contacts where name = %s  """
-        cursor.execute(query,name)
+        query="""select * from contacts where name like %s """
+        cursor.execute(query,f"%{name}%")
         rows=cursor.fetchall()
         if len(rows)>0:
             for i in rows:
